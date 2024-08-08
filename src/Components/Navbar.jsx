@@ -46,7 +46,7 @@ const Navbar = () => {
           >
             Values
           </Link>
-          <Link
+          {/* <Link
             to="Mission"
             spy={true}
             smooth={true}
@@ -54,7 +54,7 @@ const Navbar = () => {
             className="text-blue text-[20px] hover:text-yellow transition-all"
           >
             Mission
-          </Link>
+          </Link> */}
           <Link
             to="contact"
             spy={true}

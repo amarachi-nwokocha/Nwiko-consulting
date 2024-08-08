@@ -7,8 +7,8 @@ import value4 from "../assets/icon4.svg";
 import value5 from "../assets/icon5.svg";
 const Values = () => {
   return (
-    <div className="min-h-[70vh] bg-blue md:px-20 px-5 pt-10">
-        <div className="text-center my-5 md:mb-40 text-white text-5xl">
+    <div className="min-h-[70vh] bg-blue md:px-20 px-5 pt-10 pb-10">
+        <div className="text-center my-5 md:mb-20 text-white text-5xl">
             <h2>Our Values</h2>
         </div> 
       <div className="flex flex-col gap-6 md:flex-row md:justify-between md:items-center">
@@ -21,10 +21,10 @@ const Values = () => {
             <p>We strive to be excellent in all that we do</p>
           </div>
         </div>
-        <div className="md:w-2/4 text-white">
+        <div className="md:w-3/4 text-white">
           <div>
             <div className="w-20 h-20">
-              <img src={value2} alt="" />
+              <img src={value2} alt="" className="h-30 w-40" />
             </div>
             <h2 className="text-yellow text-3xl">Integrity</h2>
             <p>
@@ -33,7 +33,7 @@ const Values = () => {
             </p>
           </div>
         </div>
-        <div className="md:w-2/4 text-white">
+        <div className="md:w-3/4 text-white">
           <div>
             <div className="w-20 h-20">
               <img src={value3} alt="" />
@@ -45,14 +45,14 @@ const Values = () => {
             </p>
           </div>
         </div>
-        <div className="md:w-2/4 text-white">
+        <div className="md:w-3/4 text-white">
           <div>
             <div className="w-20 h-20">
-              <img src={value4} alt="" />
+              <img src={value4} alt="" className="h-30 w-40" />
             </div>
             <h2 className="text-yellow text-3xl">Humility</h2>
             <p>
-              We approach our work and relationships with humility, always open
+              We approach our work and relationships with humility,always open
               to learning and improvement.
             </p>
           </div>
@@ -60,7 +60,7 @@ const Values = () => {
         <div className="md:w-2/4 text-white">
           <div>
             <div className="w-20 h-20">
-              <img src={value5} alt="" />
+              <img src={value5} alt="" className="h-30 w-40" />
             </div>
             <h2 className="text-yellow text-3xl">Timeliness</h2>
             <p>We deliver our services and products on time, every time.</p>
