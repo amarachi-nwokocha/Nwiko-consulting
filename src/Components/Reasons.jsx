@@ -7,7 +7,9 @@ const Reasons = () => {
   return (
     <div className="min-h-[70vh] md:px-10 px-5 pt-10 bg-brightBackGround mb-10">
       <div className="md:px-20 px-5 pt-10">
-        <h2 className="text-4xl mb-5 hover:cursor-pointer w-fit hover:border-b-4 hover:border-b-blue font-semibold">Why <span className="text-yellow">NWIKO</span> Consulting ?</h2>
+        <h2 className="text-4xl mb-5 hover:cursor-pointer w-fit hover:border-b-4 hover:border-b-blue font-semibold">
+          Why <span className="text-yellow">NWIKO</span> Consulting ?
+        </h2>
         <p className="text-start text-lg leading-tight">
           We believe that our clients' success is our success; we believe in
           professionalism, we consistently maintain high standards for service
@@ -17,14 +19,14 @@ const Reasons = () => {
       </div>
       <section className=" flex flex-col md:flex-row md:justify-between  md:px-20 px-5 pt-10">
         <div>
-          <div className="flex gap-3 md:flex-row w-full md:w-[40vw]">
-            <div>
-              <img src={why1} alt="" />
-            </div>
-            <div>
+          <div className="md:flex-row w-full md:w-[40vw]">
+            <div className="flex gap-3 md:flex-row">
+              <img src={why1} alt=""  className="w-14 h-14" />
               <h2 className=" font-bold text-blue text-2xl mb-4">
                 Save 40 % of your project schedule before you start!!
               </h2>
+            </div>
+            <div>
               <p className="text-lg leading-tight">
                 Through our diverged geographical presence, and as we operate in
                 two different continents with two different time zones; our
@@ -33,14 +35,14 @@ const Reasons = () => {
               </p>
             </div>
           </div>
-          <div className="flex gap-3 md:flex-row w-full md:w-[40vw] mt-14">
-            <div>
-              <img src={why2} alt="" />
-            </div>
-            <div>
+          <div className=" w-full md:w-[40vw] mt-14">
+            <div className="flex gap-3 md:flex-row">
+              <img src={why2} alt=""  className="w-14 h-18" />
               <h2 className=" font-bold text-blue text-2xl mb-4">
                 Multilingual Consultants
               </h2>
+            </div>
+            <div>
               <p className="text-lg leading-tight">
                 Our multilingual consultants are a definite asset in
                 communicating with the project stakeholders; minimizing the gap
@@ -48,14 +50,14 @@ const Reasons = () => {
               </p>
             </div>
           </div>
-          <div className="flex gap-3 md:flex-row w-full md:w-[40vw] mt-14">
-            <div>
-              <img src={why3} alt="" />
-            </div>
-            <div>
+          <div className="w-full md:w-[40vw] mt-14">
+            <div className="flex gap-3 md:flex-row justify-center">
+              <img src={why3} alt="" className="w-14 h-14"/>
               <h2 className=" font-bold text-blue text-2xl pb-2 ">
                 World Class Project Management
               </h2>
+            </div>
+            <div>
               <p className="text-lg leading-tight">
                 NWIKO Consulting outsources experienced Project Manager to many
                 worldwide elite enterprises. Experience our Project Management
