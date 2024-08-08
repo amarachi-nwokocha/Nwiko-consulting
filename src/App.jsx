@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import Objectives from "./Components/Objectives";
 import Reasons from "./Components/Reasons";
 import Values from "./Components/Values";
+import Team from "./Components/Team";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
           </div>
           <div>
             <Reasons />
+          </div>
+          <div id="team">
+            <Team />
           </div>
         </main>
       </div>

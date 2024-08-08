@@ -46,15 +46,15 @@ const Navbar = () => {
           >
             Values
           </Link>
-          {/* <Link
-            to="Mission"
+          <Link
+            to="team"
             spy={true}
             smooth={true}
             duration={500}
             className="text-blue text-[20px] hover:text-yellow transition-all"
           >
-            Mission
-          </Link> */}
+           Team
+          </Link>
           <Link
             to="contact"
             spy={true}
@@ -105,13 +105,13 @@ const Navbar = () => {
           Values
         </Link>
         <Link
-          to="Mission"
+          to="team"
           spy={true}
           smooth={true}
           duration={500}
           className="text-blue text-[20px] hover:text-yellow transition-all"
         >
-          Mission
+          team
         </Link>
         <Link
           to="contact"

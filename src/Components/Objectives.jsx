@@ -5,7 +5,7 @@ const Objectives = () => {
     <div className="min-h-[70vh] md:px-10 px-5 pt-10 bg-brightBackGround mb-10">
       <div>
         <h2 className="text-5xl mb-5 hover:cursor-pointer text-bold text-center">
-          Our objectives{" "}
+          Our Objectives{" "}
         </h2>
       </div>
       <div className="flex flex-col md:flex-row md:justify-between gap-4 md:items-center  px-5 pt-10">
