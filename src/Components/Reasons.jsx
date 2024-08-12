@@ -6,7 +6,7 @@ import why3 from "../assets/why3.png";
 const Reasons = () => {
   return (
     <div className="min-h-[70vh] md:px-10 px-5 pt-10 bg-brightBackGround">
-      <div className="md:px-20 px-5 pt-10">
+      <div className="md:px-20 px-5  py-10">
         <h2 className="text-4xl mb-5 hover:cursor-pointer w-fit hover:border-b-4 hover:border-b-blue font-semibold">
           Why <span className="text-yellow">NWIKO</span> Consulting ?
         </h2>
