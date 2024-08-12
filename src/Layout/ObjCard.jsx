@@ -3,19 +3,13 @@ import { FaChalkboardTeacher } from "react-icons/fa";
 
 const ObjCard = (prop) => {
   return (
-    <div className="flex flex-col  justify-between  border-lightText md:border-none
-      md:w-2/5  cursor-pointer  transition-all">
-        <div className="w-20 text-white rounded">
-            <FaChalkboardTeacher size={70} className="rounded" />
-        </div>
-        <div>
-        <h3 className="font-semibold text-2xl items-center text-center text-white">
-          {prop.title}
-        </h3>
-        <p className="text-lightText text-center p-5 md:text-start">
-         {prop.body}
-        </p>
-        </div>
+    <div className="max-h-fit max-w-fit   border-4 border-yellow rounded-bl-lg rounded-tr-lg text-white font-semibold">
+      <img src={prop.img} alt="" width={70} height={70} />
+      <div className="p-2">
+       <h2 className="text-2xl  ">{prop.name}</h2>
+      <p className="font-bold text-yellow mb-4">{prop.title}</p>
+      <p className="text-sm">{prop.text}</p>
+      </div>
     </div>
   );
 };

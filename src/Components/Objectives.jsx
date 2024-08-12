@@ -1,8 +1,11 @@
 import React from "react";
 import { FaChalkboardTeacher } from "react-icons/fa";
+import { FaLaptopCode } from "react-icons/fa";
+import { MdManageAccounts } from "react-icons/md";
+import { RiCalendarEventFill } from "react-icons/ri";
 const Objectives = () => {
   return (
-    <div className="min-h-[70vh] md:px-10 px-5 pt-10 bg-brightBackGround mb-10">
+    <div className="min-h-[70vh] md:px-10 px-5 pt-10 bg-brightBackGround">
       <div>
         <h2 className="text-5xl mb-5 hover:cursor-pointer text-bold text-center">
           Our Objectives{" "}
@@ -29,7 +32,7 @@ const Objectives = () => {
         {/* card 2 */}
         <div className=" w-full md:w-1/3 bg-white border-2 border-lightText md:border-none rounded-lg hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all">
           <div className="  ">
-            <FaChalkboardTeacher
+            <FaLaptopCode
               size={30}
               className="text-white bg-yellow p-2 w-16 h-16 rounded-lg"
             />
@@ -47,7 +50,7 @@ const Objectives = () => {
         {/* card 3 */}
         <div className=" w-full md:w-1/3 bg-white border-2 border-lightText md:border-none rounded-lg hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all">
           <div className="  ">
-            <FaChalkboardTeacher
+            <MdManageAccounts
               size={30}
               className="text-white bg-blue p-2 w-16 h-16 rounded-lg"
             />
@@ -66,7 +69,7 @@ const Objectives = () => {
         {/* card 4 */}
         <div className=" w-full md:w-1/3 bg-white border-2 border-lightText md:border-none rounded-lg hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all">
           <div className="  ">
-            <FaChalkboardTeacher
+            <RiCalendarEventFill
               size={30}
               className="text-white bg-yellow p-2 w-16 h-16 rounded-lg"
             />

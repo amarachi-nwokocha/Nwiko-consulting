@@ -5,6 +5,7 @@ import Objectives from "./Components/Objectives";
 import Reasons from "./Components/Reasons";
 import Values from "./Components/Values";
 import Team from "./Components/Team";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
           </div>
           <div id="team">
             <Team />
+          </div>
+          <div id="contact">
+            <Footer />
           </div>
         </main>
       </div>

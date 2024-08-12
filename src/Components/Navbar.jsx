@@ -26,7 +26,7 @@ const Navbar = () => {
             duration={500}
             className="text-blue text-[20px] hover:text-yellow transition-all "
           >
-            Home
+            About Us
           </Link>
           <Link
             to="objectives"
@@ -84,7 +84,7 @@ const Navbar = () => {
           duration={500}
           className="text-blue text-[20px] hover:text-yellow transition-all "
         >
-          Home
+          About Us
         </Link>
         <Link
           to="objectives"
@@ -93,7 +93,7 @@ const Navbar = () => {
           duration={500}
           className="text-blue text-[20px] hover:text-yellow transition-all "
         >
-          Objectives
+         Our Objectives
         </Link>
         <Link
           to="values"
@@ -102,7 +102,7 @@ const Navbar = () => {
           duration={500}
           className="text-blue text-[20px] hover:text-yellow transition-all "
         >
-          Values
+        Our  Values
         </Link>
         <Link
           to="team"
@@ -111,7 +111,7 @@ const Navbar = () => {
           duration={500}
           className="text-blue text-[20px] hover:text-yellow transition-all"
         >
-          team
+          Our Team
         </Link>
         <Link
           to="contact"
@@ -120,7 +120,7 @@ const Navbar = () => {
           duration={500}
           className="text-blue text-[20px] hover:text-yellow transition-all"
         >
-          Contact
+          Contact Us
         </Link>
       </div>
     </div>

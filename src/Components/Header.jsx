@@ -1,5 +1,5 @@
 import React from "react";
-import values from "../assets/values.png";
+import values from "../assets/headerImg.png";
 const Header = () => {
   return (
     <div className="min-h-[70vh] bg-blend-saturation bg-blue flex flex-col md:flex-row md:justify-between md:items-center md:px-20 px-5 py-10">

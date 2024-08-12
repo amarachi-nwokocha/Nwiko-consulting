@@ -12,7 +12,7 @@ const Values = () => {
             <h2>Our Values</h2>
         </div> 
       <div className="flex flex-col gap-6 md:flex-row md:justify-between md:items-center">
-        <div className="md:w-2/4 text-white">
+        <div className="md:w-2/4 md:pr-3 text-white">
           <div>
             <div className="w-20 h-20">
               <img src={value1} alt="" />
@@ -33,7 +33,7 @@ const Values = () => {
             </p>
           </div>
         </div>
-        <div className="md:w-3/4 text-white">
+        <div className="md:w-[70vw] text-white">
           <div>
             <div className="w-20 h-20">
               <img src={value3} alt="" />
@@ -45,19 +45,20 @@ const Values = () => {
             </p>
           </div>
         </div>
-        <div className="md:w-3/4 text-white">
+        <div className="md:w-2/4 text-white">
           <div>
             <div className="w-20 h-20">
               <img src={value4} alt="" className="h-30 w-40" />
             </div>
             <h2 className="text-yellow text-3xl">Humility</h2>
-            <p>
-              We approach our work and relationships with humility,always open
+            <p className="md:w-[20vw]">
+              We approach our work and relationships with humility,
+               open
               to learning and improvement.
             </p>
           </div>
         </div>
-        <div className="md:w-2/4 text-white">
+        <div className="md:w-3/4 text-white">
           <div>
             <div className="w-20 h-20">
               <img src={value5} alt="" className="h-30 w-40" />
