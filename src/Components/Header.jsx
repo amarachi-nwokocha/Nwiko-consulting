@@ -1,11 +1,12 @@
 import React from "react";
 import values from "../assets/headerImg.png";
 const Header = () => {
+
   return (
     <div className="min-h-[70vh] bg-blend-saturation bg-blue flex flex-col md:flex-row md:justify-between md:items-center md:px-20 px-5 py-10">
       <div className="md:w-2/4 text-white md:mr-8  ">
         <h2 className="text-4xl mb-5 hover:cursor-pointer w-fit hover:border-b-4 hover:border-b-yellow font-semibold">What is <span className="text-yellow">NWIKO</span> Consulting?</h2>
-        <p className="text-start text-lg">
+        <p className="text-start text-lg" >
           At NWIKO Consulting Limited, we drive innovation and optimize
           processes through our comprehensive services. Our Business Advisory
           supports strategic planning, operational efficiency, financial

@@ -39,14 +39,14 @@ const Reasons = () => {
             <div className="flex gap-3 md:flex-row">
               <img src={why2} alt=""  className="w-14 h-18" />
               <h2 className=" font-bold text-blue text-2xl mb-4">
-                Multilingual Consultants
+                Diverse Consultants
               </h2>
             </div>
             <div>
               <p className="text-lg leading-tight">
-                Our multilingual consultants are a definite asset in
+                Our multitalented consultants are a definite asset in
                 communicating with the project stakeholders; minimizing the gap
-                that usually occurs due to language and culture barriers.
+                that usually occurs due to lack of context barriers.
               </p>
             </div>
           </div>
@@ -61,12 +61,12 @@ const Reasons = () => {
               <p className="text-lg leading-tight">
                 NWIKO Consulting outsources experienced Project Manager to many
                 worldwide elite enterprises. Experience our Project Management
-                Services that shall be embedded in our proposed
+                Services that shall be embedded in our proposed services.
               </p>
             </div>
           </div>
         </div>
-        <div className="hidden md:block">
+        <div className="block">
           <img src={person} alt="" className="h-fit" />
         </div>
       </section>

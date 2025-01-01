@@ -11,7 +11,7 @@ const Values = () => {
         <div className="text-center my-5 md:mb-20 text-white text-5xl">
             <h2>Our Values</h2>
         </div> 
-      <div className="flex flex-col gap-6 md:flex-row md:justify-between md:items-center">
+      <div className="flex flex-col gap-6 md:flex-row  md:items-center">
         <div className="md:w-2/4 md:pr-3 text-white">
           <div>
             <div className="w-20 h-20">
