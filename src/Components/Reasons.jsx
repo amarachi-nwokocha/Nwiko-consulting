@@ -51,14 +51,14 @@ const Reasons = () => {
             </div>
           </div>
           <div className="w-full md:w-[40vw] mt-14">
-            <div className="flex gap-3 md:flex-row justify-center">
+            <div className="flex gap-3 md:flex-row">
               <img src={why3} alt="" className="w-14 h-14"/>
-              <h2 className=" font-bold text-blue text-2xl pb-2 ">
+              <h2 className="font-bold text-blue text-2xl pb-2  ">
                 World Class Project Management
               </h2>
             </div>
             <div>
-              <p className="text-lg leading-tight">
+              <p className="text-lg leading-tight pb-9">
                 NWIKO Consulting outsources experienced Project Manager to many
                 worldwide elite enterprises. Experience our Project Management
                 Services that shall be embedded in our proposed services.
