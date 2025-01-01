@@ -66,7 +66,7 @@ const Reasons = () => {
             </div>
           </div>
         </div>
-        <div className="block">
+        <div className="hidden md:block">
           <img src={person} alt="" className="h-fit" />
         </div>
       </section>

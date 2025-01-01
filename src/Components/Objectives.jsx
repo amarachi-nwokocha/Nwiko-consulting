@@ -5,7 +5,7 @@ import { MdManageAccounts } from "react-icons/md";
 import { RiCalendarEventFill } from "react-icons/ri";
 const Objectives = () => {
   return (
-    <div className="min-h-[70vh] md:px-10 px-5 pt-10 bg-brightBackGround">
+    <div className="min-h-[70vh] pb-10 md:px-10 px-5 pt-10 bg-brightBackGround">
       <div>
         <h2 className="text-5xl mb-5 hover:cursor-pointer text-bold text-center">
           Our Objectives{" "}
