@@ -28,7 +28,7 @@ const Objectives = () => {
             {" "}
             </h2>
             <p className=" text-lightText">
-            Short Write-up: We assist organizations in crafting evidence-based strategies, developing policies, and ensuring alignment with global and local objectives to drive sustainable impact.
+            We assist organizations in crafting evidence-based strategies, developing policies, and ensuring alignment with global and local objectives to drive sustainable impact.
 
             </p>
           </div>
