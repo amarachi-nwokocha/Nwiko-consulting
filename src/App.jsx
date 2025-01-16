@@ -5,6 +5,7 @@ import Objectives from "./Components/Objectives";
 import Reasons from "./Components/Reasons";
 import Values from "./Components/Values";
 import Team from "./Components/Team";
+import Mail from "./Components/Mail";
 import Footer from "./Components/Footer";
 
 function App() {
@@ -29,7 +30,10 @@ function App() {
             <Team />
           </div>
           <div id="contact">
-            <Footer />
+            <Mail />
+          </div>
+          <div>
+          <Footer />
           </div>
         </main>
       </div>

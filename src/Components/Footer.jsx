@@ -4,7 +4,7 @@ import logo from "../assets/logo2.png";
 const Footer = () => {
   return (
     <div>
-    <div className=" flex flex-col md:flex-row justify-between bg-white border-b-4 border-lightText  md:px-32 p-5">
+    <div className=" flex flex-col md:flex-row justify-between bg-blue text-yellow border-b-4 border-lightText  md:px-32 p-5">
       <div className="flex flex-col md:flex-row gap-5 font-medium p-1 text-lg">
         <Link
           to="home"
