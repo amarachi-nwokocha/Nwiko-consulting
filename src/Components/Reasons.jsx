@@ -7,8 +7,8 @@ const Reasons = () => {
   return (
     <div className="min-h-[70vh] md:px-10 px-5 pt-10 bg-brightBackGround">
       <div className="md:px-20 px-5  py-10">
-        <h2 className="text-4xl mb-5 hover:cursor-pointer w-fit hover:border-b-4 hover:border-b-blue font-semibold">
-          Why <span className="text-yellow">NWIKO</span> Consulting ?
+        <h2 className="text-4xl mb-5 hover:cursor-pointer w-fit hover:border-b-4 hover:border-b-blue font-bold">
+          Why <span className="text-yellow">NCL</span> ?
         </h2>
         <p className="text-start text-lg leading-tight">
           We believe that our clients' success is our success; we believe in
@@ -59,7 +59,7 @@ const Reasons = () => {
             </div>
             <div>
               <p className="text-lg leading-tight pb-9">
-                NWIKO Consulting outsources experienced Project Manager to many
+                NCL outsources experienced Project Manager to many
                 worldwide elite enterprises. Experience our Project Management
                 Services that shall be embedded in our proposed services.
               </p>

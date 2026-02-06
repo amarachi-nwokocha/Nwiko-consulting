@@ -40,7 +40,7 @@ const ValueCard = () => {
             {data.values.map((item, index) => (
                 <div key={index} className='p-5 hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all w-full md:w-[220px]'>
                     <img src={item.image} alt='' className='h-20  mb-5' />
-                    <h2 className='text-yellow text-5xl md:text-2xl'>{item.head}</h2>
+                    <h2 className='text-yellow text-4xl font-semibold md:text-2xl'>{item.head}</h2>
                     <p className='text-white text-xl pt-6 md:pt-2 md:text-base'>{item.text}</p>
                 </div>
             ))}

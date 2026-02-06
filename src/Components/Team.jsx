@@ -14,7 +14,7 @@ const Team = () => {
           Meet the <span className="text-yellow">Team</span>
         </h2>
       </div>
-      <div className="grid gap-10 snap-x mt-14 md:mt-0  md:grid-cols-3 pb-10">
+      <div className="grid gap-10 snap-x mt-14 md:mt-0  md:grid-cols-2 pb-10">
         <ObjCard
           img={ceo}
           name="Precious NWIKO"
@@ -22,24 +22,24 @@ const Team = () => {
           text="Precious NWIKO is a seasoned expert in digital health, vaccine cold chain logistics, and health information systems, holding advanced credentials from Harvard University, the University of Essex, the University of Greenwich, and the American University of Nigeria,with over 14 years of experience.
 "
         />
-        <ObjCard
+        {/* <ObjCard
           img={cmo}
           name="Maureen Dede"
           title="Chief Marketing Officer (CMO)"
           text="Maureen Dede is a dynamic marketing professional with over five years of experience. She specializes in brand strategy, digital marketing, and customer relationship management, passionately amplifying brand voices and connecting people to modern solutions."
-        />
+        /> */}
         <ObjCard
           img={cto}
           name="Idahtonye Toby"
           title="Chief Technical Officer (CTO)"
           text="Idahtonye Toby is a skilled IT professional with 10 years of experience in technical support, adept at resolving hardware, software, and networking issues efficiently while ensuring excellent customer service and effective "
         />
-        <ObjCard
+        {/* <ObjCard
           img={coo}
           name="Nnamdi Nwamaghinna"
           title="Chief Operations & Asset Integrity Officer (COO)"
           text="Nnamdi Nwamaghinna is a dedicated Corrosion & Inspection Engineer in the Nigerian Oil and Gas Industry with over nine years of experience, specializing in offshore asset integrity management and innovative inspection technologies."
-        />
+        /> */}
         <ObjCard
           img={cfo}
           name="Alexandra Omavuohrerhe"
