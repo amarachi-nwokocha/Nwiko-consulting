@@ -7,7 +7,7 @@ const Header = () => {
       <div className="md:w-2/4 text-white md:mr-8  ">
         <h2 className="text-4xl mb-5 hover:cursor-pointer w-fit hover:border-b-4 hover:border-b-yellow font-semibold">What is <span className="text-yellow">Nwiko</span> Consulting?</h2>
         <p className="text-start text-lg" >
-          At Nwiko Consulting Limited(NCL), we drive innovation and optimize
+         Since 2015, at Nwiko Consulting Limited (NCL), we drive innovation and optimize
           processes through our comprehensive services. Our Business Advisory
           supports strategic planning, operational efficiency, financial
           management, market research, risk management, and mergers and
