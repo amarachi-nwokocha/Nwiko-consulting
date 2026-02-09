@@ -9,7 +9,7 @@ const Header = () => {
         <p className="text-start text-lg" >
          Since 2015, at Nwiko Consulting Limited (NCL), we drive innovation and optimize
           processes through our comprehensive services. Our Business Advisory
-          supports strategic planning, operational efficiency, financial
+          supports, strategic planning, operational efficiency, financial
           management, market research, risk management, and mergers and
           acquisitions.
         </p>
