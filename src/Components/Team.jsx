@@ -33,9 +33,7 @@ const Team = () => {
           img={lco}
           name="Olabowale Joseph Kunlere"
           title="Legal Officer"
-          text="Olabowale Joseph Kunlere is a legal officer with a strong background in legal training and professional development. He holds an LLB from the University of Hull and an LL.M in Legal Practice from Nottingham Trent University. His experience includes a placement at Eversheds Sutherland LLP Nottingham in the Employment and Restructuring team, and he has previously taught tort law at Runshaw College-Leyland Campus, Preston.
-
-He completed his NYSC with Professor Yemi Akinseye-George SAN & Partners and has contributed to legal research and policy analysis for Nigeria’s criminal justice system through the Centre For Socio-Legal Studies. Olabowale brings a collaborative spirit and a commitment to supporting his colleagues, reflecting a proactive dedication to both personal growth and team development."
+          text="Olabowale Joseph Kunlere is a legal officer with a strong background in legal training and professional development. He holds an LLB from the University of Hull and an LL.M in Legal Practice from Nottingham Trent University. His experience includes a placement at Eversheds Sutherland LLP Nottingham in the Employment and Restructuring team, and he has previously taught tort law at Runshaw College-Leyland Campus, Preston."
         />
         <ObjCard
           img={cto}
