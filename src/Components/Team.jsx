@@ -29,12 +29,7 @@ const Team = () => {
           title="Chief Marketing Officer (CMO)"
           text="Maureen Dede is a dynamic marketing professional with over five years of experience. She specializes in brand strategy, digital marketing, and customer relationship management, passionately amplifying brand voices and connecting people to modern solutions."
         /> */}
-        <ObjCard
-          img={lco}
-          name="Olabowale Joseph Kunlere"
-          title="Legal Officer"
-          text="Olabowale Joseph Kunlere is a legal officer with a strong background in legal training and professional development. He holds an LLB from the University of Hull and an LL.M in Legal Practice from Nottingham Trent University. His experience includes a placement at Eversheds Sutherland LLP Nottingham in the Employment and Restructuring team, and he has previously taught tort law at Runshaw College-Leyland Campus, Preston."
-        />
+
         <ObjCard
           img={cto}
           name="Idahtonye Toby"
@@ -58,6 +53,12 @@ const Team = () => {
           name="Sunny Idoko"
           title="Brand Strategy and Communications Officer (BSCO)"
           text="Sunny Idoko is a seasoned brand communication specialist and business strategist with over eight years of experience. He excels in performance marketing, brand strategy, and communications, driving business growth and enhancing brand visibility through innovative campaigns."
+        />
+        <ObjCard
+          img={lco}
+          name="Olabowale Joseph Kunlere"
+          title="Legal Officer"
+          text="Olabowale Joseph Kunlere is a legal officer with a strong background in legal training and professional development. He holds an LLB from the University of Hull and an LL.M in Legal Practice from Nottingham Trent University. His experience includes a placement at Eversheds Sutherland LLP Nottingham in the Employment and Restructuring team, and he has previously taught tort law at Runshaw College-Leyland Campus, Preston."
         />
       </div>
     </div>
