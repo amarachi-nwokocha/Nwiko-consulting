@@ -1,4 +1,4 @@
-import React, { useLayoutEffect, useRef, useState } from "react";
+import React, { useLayoutEffect, useRef } from "react";
 import { FaChalkboardTeacher, FaLaptopCode } from "react-icons/fa";
 import { MdManageAccounts } from "react-icons/md";
 import { RiCalendarEventFill } from "react-icons/ri";
@@ -9,23 +9,36 @@ import research from "../assets/research.png";
 import tracking from "../assets/tracking.png";
 import { motion, useScroll, useTransform } from "framer-motion";
 
+const CARDS_PER_GROUP = 2;
+// Fraction of each group's scroll range spent "holding" still before snapping to the next group.
+const HOLD_RATIO = 0.65;
+
 export default function HorizontalObjectives() {
   const sectionRef = useRef(null);
   const trackRef = useRef(null);
+  const cardRefs = useRef([]);
+  const groupOffsetsRef = useRef([]);
 
   const { scrollYProgress } = useScroll({
     target: sectionRef,
     offset: ["start start", "end end"],
   });
 
-  const [maxTranslateX, setMaxTranslateX] = useState(0);
-
   useLayoutEffect(() => {
     const calculate = () => {
       if (!trackRef.current) return;
       const trackWidth = trackRef.current.scrollWidth;
       const viewportWidth = window.innerWidth;
-      setMaxTranslateX(trackWidth - viewportWidth);
+      const max = trackWidth - viewportWidth;
+
+      const offsets = [];
+      for (let i = 0; i < cardRefs.current.length; i += CARDS_PER_GROUP) {
+        offsets.push(cardRefs.current[i]?.offsetLeft ?? 0);
+      }
+      if (offsets.length) {
+        offsets[offsets.length - 1] = max;
+      }
+      groupOffsetsRef.current = offsets;
     };
 
     calculate();
@@ -33,7 +46,25 @@ export default function HorizontalObjectives() {
     return () => window.removeEventListener("resize", calculate);
   }, []);
 
-  const x = useTransform(scrollYProgress, [0, 1], [0, -maxTranslateX]);
+  const x = useTransform(scrollYProgress, (progress) => {
+    const offsets = groupOffsetsRef.current;
+    if (!offsets.length) return 0;
+
+    const groupCount = offsets.length;
+    const segmentSize = 1 / groupCount;
+    const g = Math.min(groupCount - 1, Math.floor(progress / segmentSize));
+
+    if (g === groupCount - 1) return -offsets[g];
+
+    const segStart = g * segmentSize;
+    const segEnd = segStart + segmentSize;
+    const holdEnd = segStart + segmentSize * HOLD_RATIO;
+
+    if (progress <= holdEnd) return -offsets[g];
+
+    const t = (progress - holdEnd) / (segEnd - holdEnd);
+    return -(offsets[g] + (offsets[g + 1] - offsets[g]) * t);
+  });
 
   const objectivesData = [
     {
@@ -114,6 +145,7 @@ export default function HorizontalObjectives() {
             return (
               <motion.div
                 key={index}
+                ref={(el) => (cardRefs.current[index] = el)}
                 className="relative flex-shrink-0 w-[90vw] sm:w-[70vw] lg:w-[40vw]"
                 initial={{ opacity: 0, y: isTop ? -30 : 30 }}
                 whileInView={{ opacity: 1, y: 0 }}

@@ -6,7 +6,7 @@ import cto from "../assets/cto.jpg";
 import cmo from "../assets/mau.jpg";
 import cfo from "../assets/alex.jpg";
 import sco from "../assets/sunny.png";
-import lco from "../assets/lco.jpeg";
+import lco from "../assets/lco2.jpeg";
 const Team = () => {
   return (
     <div className="min-h-[70vh]  bg-blue flex flex-col  md:items-center md:px-20 px-5 py-10">
